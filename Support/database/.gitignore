@@ -1,0 +1,5 @@
+*.db
+*.lck
+*.log
+*.pxa
+*.trx
