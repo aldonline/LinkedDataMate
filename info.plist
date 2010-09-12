@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Virtuoso</string>
+	<key>ordering</key>
+	<array>
+		<string>ACC0FEA6-783E-4E71-BEF9-C9CA1AB692ED</string>
+		<string>7E7936B6-7334-455B-A5ED-D51CA49CF532</string>
+		<string>ABAD37E0-DE50-4B4C-805A-1B3EA936B316</string>
+		<string>19A164B7-4A3C-421B-9866-85FB9077A983</string>
+		<string>613B7000-DEDF-4C4D-AF1A-F25BF5E4C301</string>
+		<string>F2ED0B4B-834F-4D2D-B6DB-98C5AEE98B97</string>
+		<string>1924933F-A944-430A-B9E4-E2439C9AE774</string>
+		<string>7F83FD36-74AD-48E7-8F18-C9D520B2C547</string>
+	</array>
+	<key>uuid</key>
+	<string>4A3F321E-57E0-4FDE-90F1-ACE41525B5F6</string>
+</dict>
+</plist>

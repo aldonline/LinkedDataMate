@@ -1,0 +1,1 @@
+isql 1119 dba dba VERBOSE=OFF "$TM_BUNDLE_SUPPORT/reload-data.sql"

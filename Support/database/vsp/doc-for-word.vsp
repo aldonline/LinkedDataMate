@@ -1,0 +1,21 @@
+<?vsp
+	declare word varchar;
+	word := lcase({?'word'});
+	for (
+		sparql
+		select 
+			?item
+		where {
+			?func
+				v:id ?:word ;
+				v:item ?item
+				.
+		} limit 1
+	) do {
+	?>
+	<meta http-equiv="Refresh" content="0;URL=<?=item?>">
+	<?vsp	
+	http_flush( );
+}
+?>
+Not found...

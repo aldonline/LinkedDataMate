@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby -wKU
+
+require ENV['TM_SUPPORT_PATH'] + '/lib/ui'
+require 'net/http'
+
+def get_choices()
+  res = Net::HTTP.get(URI.parse('http://localhost:8899/code-complete.vsp'))
+  choices = []
+  res.split("----").each do |block|
+    block = block.strip
+    if block == ""
+      next
+    end    
+    
+    i = 0
+    choice = {}
+    choices.push( choice )  
+    block.split("\n").each do |line|
+      line = line.strip
+      if line == ""
+        next
+      end
+     if ( i == 0 )
+        choice["display"] = line
+      end
+    
+      if ( i == 1 )
+        choice["insert"] = line    
+      end
+    
+      i+=1
+    end
+  end
+  return choices
+end
+
+
+choices = get_choices()
+TextMate::UI.complete(choices, :initial_filter =&gt; ENV['TM_CURRENT_WORD'], :extra_chars =&gt; '_', :case_insensitive =&gt; true )
+</string>
+	<key>fallbackInput</key>
+	<string>word</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>~</string>
+	<key>name</key>
+	<string>Completions for Word…</string>
+	<key>output</key>
+	<string>showAsTooltip</string>
+	<key>scope</key>
+	<string>source.virtuoso</string>
+	<key>uuid</key>
+	<string>7E7936B6-7334-455B-A5ED-D51CA49CF532</string>
+</dict>
+</plist>

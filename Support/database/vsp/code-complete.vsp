@@ -1,0 +1,21 @@
+<?vsp
+for ( 
+	sparql
+	select distinct 
+	* 
+	where 
+	{
+		?func v:id ?id .
+		optional { ?func v:signature ?signature } 
+		optional { ?func v:snippet ?snippet }
+	}
+	order by ?id
+	) do {
+		http( id );
+		http('\n');
+		http( coalesce( snippet, '' ) );
+		http('\n');
+		http('----');
+		http('\n');		
+	}
+?>

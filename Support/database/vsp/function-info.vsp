@@ -1,0 +1,46 @@
+<?vsp
+
+	declare f varchar;
+	f := lcase({?'func'});
+	
+	for (
+		sparql
+		select 
+		* 
+		where {
+			?func
+				v:id ?id 
+				.
+			optional { ?func v:item [ dc:description ?description ] }
+			optional { ?func v:signature ?signature }
+			optional { ?func v:example ?example }
+			filter( ?id = ?:f )
+		} limit 1
+	) do {
+
+?>
+	<style type="text/css" media="screen">
+	    p {
+	        margin: 0;
+	    }
+	    p.prototype span {
+	        color: #00008B;
+	    }
+	    p.prototype i {
+	        color: #666;
+	    }
+	    p.description {
+	        font-size: smaller;
+	    }
+	    p.prototype span.type {
+	      color: #006400;
+	    }
+	</style>
+	<p class="prototype">
+		<?=signature?>
+	</p>
+	<p class="description"><?=description?></p>
+	<pre><?=example?></pre>
+<?vsp
+}
+?>

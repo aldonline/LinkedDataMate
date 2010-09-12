@@ -1,0 +1,24 @@
+
+		Sun Sep 12 2010
+17:20:01 OpenLink Virtuoso Universal Server
+17:20:01 Version 06.01.3126-pthreads for Darwin as of Feb 16 2010
+17:20:01 uses parts of OpenSSL, PCRE, Html Tidy
+17:20:01 SQL Optimizer enabled (max 1000 layouts)
+17:20:02 Compiler unit is timed at 0.021790 msec
+17:20:17 Checkpoint started
+17:20:18 Roll forward started
+17:20:18 Roll forward complete
+17:20:18 Checkpoint started
+17:20:18 Checkpoint finished, log reused
+17:20:19 Checkpoint started
+17:20:19 Checkpoint finished, log reused
+17:20:19 Checkpoint started
+17:20:19 Checkpoint finished, log reused
+17:20:19 Checkpoint started
+17:20:19 Checkpoint finished, log reused
+17:20:21 HTTP/WebDAV server online at 8899
+17:20:21 Server online at 1119 (pid 1335)
+17:20:21 Checkpoint started
+17:20:21 Checkpoint finished, log reused
+17:20:27 Checkpoint started
+17:20:27 Checkpoint finished, log reused

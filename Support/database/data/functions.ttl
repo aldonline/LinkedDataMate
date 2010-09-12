@@ -1,0 +1,52 @@
+@prefix f: <http://linktegration.com/virtuosomate/func/> .
+@prefix v: <http://linktegration.com/virtuosomate/vocab/> .
+
+f:file_to_string 
+	a v:Function ;
+	v:id "file_to_string" ;
+	v:signature "file_to_string( in path varchar ) returns varchar" ;
+	v:param 
+		[ 
+			v:name "path"; 
+			v:descr "path to file relative from database root" 
+		] 
+	;
+	v:docs "documentation for file_to_string";
+	v:snippet "(${1:in path varchar})"
+.
+
+
+f:file_to_string_output 
+	a v:Function ;
+	v:id "file_to_string_output" ;
+	v:signature "file_to_string_output( in file varchar, in from integer, in to integer )" ;
+	v:param [ v:name "path"; v:descr "path to file relative from database root" ] ;
+	v:docs "documentation for file_to_string_output" ;
+	v:snippet "(${1:in file varchar}, ${2:in from integer}, ${3:in to integer})" ;
+	v:example """
+	create table
+	file_table (
+	  ft_name varchar,
+	  ft_cont long varbinary,
+	  primary key (ft_name));
+
+	create procedure
+	insert_files (in fname varchar)
+	{
+	  declare strout_handle any;
+
+	  strout_handle := file_to_string_output (fname);
+	  insert into file_table (ft_name, ft_cont)
+	    values (fname, strout_handle);
+
+	  strout_handle := file_to_string_output (fname, 10);
+	  insert into file_table (concat (ft_name, '_1'), ft_cont)
+	    values (fname, strout_handle);
+
+	  strout_handle := file_to_string_output (fname, 10, 20);
+	  insert into file_table (concat (ft_name, '_2'), ft_cont)
+	    values (fname, strout_handle);
+	};
+
+	insert_file ('foo.dat');"""
+.
