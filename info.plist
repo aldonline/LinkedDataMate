@@ -13,9 +13,24 @@
 			<string>7F83FD36-74AD-48E7-8F18-C9D520B2C547</string>
 			<string>A635B5ED-4E37-47FB-8713-0C6949FE13F5</string>
 			<string>BCA1ECB7-19E3-422B-8A4B-3FA62B6A2E5D</string>
+			<string>BE7E2E48-D436-4022-A9D2-48F2382D0B81</string>
+			<string>43C0E331-D848-449D-A823-62DB5EAB51B0</string>
+			<string>BA9F9DE3-C9A6-4D80-93E8-AB76726461E2</string>
+			<string>E0CA4E9C-B684-438E-951A-D515D76FC50A</string>
+			<string>1D90180E-6D38-4F99-B31C-7C4C5DC49D42</string>
 		</array>
 		<key>submenus</key>
 		<dict>
+			<key>1D90180E-6D38-4F99-B31C-7C4C5DC49D42</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>23A04089-4A42-4ABC-924D-637EB0823300</string>
+					<string>C65C14E5-9B5D-4C04-A02B-9D72E218265E</string>
+				</array>
+				<key>name</key>
+				<string>SPARQL</string>
+			</dict>
 			<key>A635B5ED-4E37-47FB-8713-0C6949FE13F5</key>
 			<dict>
 				<key>items</key>

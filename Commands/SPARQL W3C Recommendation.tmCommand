@@ -5,18 +5,14 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>echo "&lt;meta http-equiv='Refresh' content='0;URL=http://prefix.cc/'&gt;"</string>
+	<string>echo "&lt;meta http-equiv='Refresh' content='0;URL=http://www.w3.org/TR/rdf-sparql-query/'&gt;"</string>
 	<key>input</key>
 	<string>none</string>
-	<key>keyEquivalent</key>
-	<string>^h</string>
 	<key>name</key>
-	<string>Prefix Lookup</string>
+	<string>SPARQL W3C Recommendation</string>
 	<key>output</key>
 	<string>showAsHTML</string>
-	<key>scope</key>
-	<string>source.turtle.prefix</string>
 	<key>uuid</key>
-	<string>BA9F9DE3-C9A6-4D80-93E8-AB76726461E2</string>
+	<string>23A04089-4A42-4ABC-924D-637EB0823300</string>
 </dict>
 </plist>

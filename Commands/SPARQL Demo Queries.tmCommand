@@ -5,18 +5,14 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>echo "&lt;meta http-equiv='Refresh' content='0;URL=http://prefix.cc/'&gt;"</string>
+	<string>echo "&lt;meta http-equiv='Refresh' content='0;URL=http://lod.openlinksw.com/demo_queries/'&gt;"</string>
 	<key>input</key>
 	<string>none</string>
-	<key>keyEquivalent</key>
-	<string>^h</string>
 	<key>name</key>
-	<string>Prefix Lookup</string>
+	<string>SPARQL Demo Queries</string>
 	<key>output</key>
 	<string>showAsHTML</string>
-	<key>scope</key>
-	<string>source.turtle.prefix</string>
 	<key>uuid</key>
-	<string>BA9F9DE3-C9A6-4D80-93E8-AB76726461E2</string>
+	<string>C65C14E5-9B5D-4C04-A02B-9D72E218265E</string>
 </dict>
 </plist>
