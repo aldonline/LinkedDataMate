@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>echo File: "$TM_FILEPATH"</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>name</key>
+	<string>Parse File and Show Triples</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>uuid</key>
+	<string>961B7E69-1BB4-477C-9799-C0B540F663DA</string>
+</dict>
+</plist>
