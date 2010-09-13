@@ -2,6 +2,42 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>7E7936B6-7334-455B-A5ED-D51CA49CF532</string>
+			<string>ABAD37E0-DE50-4B4C-805A-1B3EA936B316</string>
+			<string>19A164B7-4A3C-421B-9866-85FB9077A983</string>
+			<string>95E3E644-8565-4934-9AF2-2BE32F724CD4</string>
+			<string>7F83FD36-74AD-48E7-8F18-C9D520B2C547</string>
+			<string>A635B5ED-4E37-47FB-8713-0C6949FE13F5</string>
+			<string>BCA1ECB7-19E3-422B-8A4B-3FA62B6A2E5D</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>A635B5ED-4E37-47FB-8713-0C6949FE13F5</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>2A8C9703-A740-4635-9C37-9B3FD9F297EC</string>
+					<string>669F084C-9D44-4595-80D2-FB1521DA31AA</string>
+				</array>
+				<key>name</key>
+				<string>Linked Data</string>
+			</dict>
+			<key>BCA1ECB7-19E3-422B-8A4B-3FA62B6A2E5D</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>613B7000-DEDF-4C4D-AF1A-F25BF5E4C301</string>
+					<string>F2ED0B4B-834F-4D2D-B6DB-98C5AEE98B97</string>
+				</array>
+				<key>name</key>
+				<string>Admin</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>name</key>
 	<string>Virtuoso</string>
 	<key>ordering</key>
@@ -14,6 +50,10 @@
 		<string>F2ED0B4B-834F-4D2D-B6DB-98C5AEE98B97</string>
 		<string>1924933F-A944-430A-B9E4-E2439C9AE774</string>
 		<string>7F83FD36-74AD-48E7-8F18-C9D520B2C547</string>
+		<string>2A8C9703-A740-4635-9C37-9B3FD9F297EC</string>
+		<string>669F084C-9D44-4595-80D2-FB1521DA31AA</string>
+		<string>95E3E644-8565-4934-9AF2-2BE32F724CD4</string>
+		<string>87318912-6F6A-4E86-A8A2-27164C26FEBD</string>
 	</array>
 	<key>uuid</key>
 	<string>4A3F321E-57E0-4FDE-90F1-ACE41525B5F6</string>

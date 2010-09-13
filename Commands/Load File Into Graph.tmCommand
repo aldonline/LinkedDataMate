@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>beforeRunningCommand</key>
-	<string>nop</string>
+	<string>saveActiveFile</string>
 	<key>command</key>
-	<string>echo "&lt;meta http-equiv='Refresh' content='0;URL=http://docs.openlinksw.com/virtuoso/functions.html'&gt;"</string>
+	<string>echo TODO: load file "$TM_FILEPATH"</string>
 	<key>input</key>
 	<string>none</string>
 	<key>name</key>
-	<string>Virtuoso Functions Guide</string>
+	<string>Load File Into Graph</string>
 	<key>output</key>
-	<string>showAsHTML</string>
+	<string>showAsTooltip</string>
 	<key>uuid</key>
-	<string>7F83FD36-74AD-48E7-8F18-C9D520B2C547</string>
+	<string>95E3E644-8565-4934-9AF2-2BE32F724CD4</string>
 </dict>
 </plist>

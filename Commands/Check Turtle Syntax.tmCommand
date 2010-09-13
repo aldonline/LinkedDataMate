@@ -5,14 +5,14 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>echo "&lt;meta http-equiv='Refresh' content='0;URL=http://docs.openlinksw.com/virtuoso/functions.html'&gt;"</string>
+	<string># call ttlp on document. grep and display err message if any</string>
 	<key>input</key>
-	<string>none</string>
+	<string>selection</string>
 	<key>name</key>
-	<string>Virtuoso Functions Guide</string>
+	<string>Check Turtle Syntax</string>
 	<key>output</key>
-	<string>showAsHTML</string>
+	<string>replaceSelectedText</string>
 	<key>uuid</key>
-	<string>7F83FD36-74AD-48E7-8F18-C9D520B2C547</string>
+	<string>43C0E331-D848-449D-A823-62DB5EAB51B0</string>
 </dict>
 </plist>
